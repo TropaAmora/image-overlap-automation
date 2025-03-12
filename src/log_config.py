@@ -13,7 +13,7 @@ def setup_logger(log_level=logging.INFO):
     
     # Generate log filename with timestamp
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    log_filename = f'logs/bag_allocation_algo_{timestamp}.log'
+    log_filename = f'logs/image_overlap_{timestamp}.log'
     
     # Create logger
     logger = logging.getLogger('ImageOverlapAutomation')
